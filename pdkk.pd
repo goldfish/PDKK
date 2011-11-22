@@ -1,5 +1,5 @@
 #N canvas 0 522 174 140 10;
-#N canvas 40 45 1191 666 pdkkInterfaceGOP-\$0 1;
+#N canvas 40 45 1191 666 pdkkInterfaceGOP-\$0 0;
 #X obj 44 14 ctlin;
 #X obj 29 539 pack f f;
 #X obj 773 538 pack f f;
@@ -9,7 +9,7 @@
 #X obj 140 105 print midiIN;
 #X obj 140 80 spigot;
 #X obj 137 50 tgl 15 0 empty empty dump_midi 17 10 0 6 -262144 -1 -1
-1 1;
+0 1;
 #X obj 29 41 pack f f f;
 #X obj 29 84 route 1;
 #X obj 29 105 unpack f f;
